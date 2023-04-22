@@ -1,0 +1,245 @@
+.aboutme{
+    width: 100%;
+    .inneraboutme{
+        width: 100%;
+
+        .toppart{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            
+           .image{
+               width: 70px;
+               height: 70px;
+               border: 2px solid white;
+               border-radius: 50%;
+               overflow: hidden;
+              
+              
+              img{
+                // border: 1px solid white;
+                border-radius: 50%;
+                 width: 100%;
+                 height: 100%;
+                 object-fit:fill;
+                 object-position: center;
+              }
+           }
+           .available{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              #line{
+                 color: white;  
+                 font-size: 2rem;
+                 
+              }
+             p{
+                color: white;
+                font-size: 1.3rem;
+             }
+           }
+        }
+
+        .middlepart{
+            h1{
+                font-size: 5.5rem;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: rgb(200, 196, 196);
+                color: #420fe7;
+            }
+
+            #one{
+                display: inline-block;
+            }
+
+            #two{
+                display: inline-block;
+            }
+            #three{
+                display: inline-block;
+            }
+           
+        }
+
+        .bottompart{
+             h1{
+                font-size: 5.5rem;
+                color: white;
+             }
+
+             #on{
+                display: inline-block;
+            }
+
+            #to{
+                display: inline-block;
+            }
+            #fo{
+                display: inline-block;
+            }
+
+            #th{
+                display: inline-block;
+            }
+           
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .aboutme{
+        .inneraboutme{
+            .toppart{
+                 .image{
+                    width: 50px;
+                    height: 50px;
+                 }
+                 .available{
+                    #line{
+                     font-size: 1.3rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                 }
+
+            }
+
+            .middlepart{
+                h1{
+                    font-size: 2.4rem;
+                    -webkit-text-stroke-width: .6px;
+                }
+                
+            }
+            .bottompart{
+                width: 100%;
+                h1{
+                    width: 100%;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+ }
+
+
+ 
+@media screen and (min-width:650px) and (max-width:900px) {
+    .aboutme{
+        .inneraboutme{
+            .toppart{
+                 .image{
+                    width: 60px;
+                    height: 60px;
+                 }
+                 .available{
+                    #line{
+                     font-size: 1.5rem;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                 }
+
+            }
+
+            .middlepart{
+                h1{
+                    font-size: 3.3rem;
+                    -webkit-text-stroke-width: .6px;
+                }
+                
+            }
+            .bottompart{
+                width: 100%;
+                h1{
+                    width: 100%;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+ }
+
+
+  
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .aboutme{
+        .inneraboutme{
+            .toppart{
+                 .image{
+                    width: 60px;
+                    height: 60px;
+                 }
+                 .available{
+                    #line{
+                     font-size: 1.5rem;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                 }
+
+            }
+
+            .middlepart{
+                h1{
+                    font-size: 3.3rem;
+                    -webkit-text-stroke-width: .6px;
+                }
+                
+            }
+            .bottompart{
+                width: 100%;
+                h1{
+                    width: 100%;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+ }
+
+
+ @media screen and (min-width:1200px) and (max-width:1500px) {
+    .aboutme{
+        .inneraboutme{
+            .toppart{
+                 .image{
+                    width: 60px;
+                    height: 60px;
+                 }
+                 .available{
+                    #line{
+                     font-size: 1.5rem;
+                    }
+                    p{
+                        font-size: 0.9rem;
+                    }
+                 }
+
+            }
+
+            .middlepart{
+                h1{
+                    font-size: 4.5rem;
+                    -webkit-text-stroke-width: .9px;
+                }
+                
+            }
+            .bottompart{
+                width: 100%;
+                h1{
+                    width: 100%;
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+ }

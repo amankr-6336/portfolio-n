@@ -1,0 +1,153 @@
+.footer{
+    width: 100%;
+    .innerfooter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        .intrested{
+            width: 100%;
+            h1{
+                font-size: 8rem;
+                color: white;
+            }
+        }
+
+        .desc{
+            width: 100%;
+            .dark{
+                font-size: 2rem;
+                font-weight: 200;
+                color: rgb(200, 196, 196);
+                .white{
+                    display: inline-block;
+                    color: white;
+                    a{
+                        text-decoration: none;
+                        font-weight: bolder;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .resume{
+            width: 100%;
+            button{
+                background-color: #420fe7;
+                border-radius: 40px;
+                padding: 10px 15px;
+                text-align: center;
+                border: 1.5px solid rgb(200, 196, 196);
+                transition: all ease-in-out 0.2s;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.7rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+            button:hover{
+                background-color: #190b48;
+                transition: all ease-in-out 0.2s;
+            }
+        }
+
+        .connect{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            .insta{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                color: white;
+                border-right: 1px solid rgb(200, 196, 196);
+            }
+
+            .github{
+               flex: 1;
+               display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                color: white;
+                border-right: 1px solid rgb(200, 196, 196);
+            }
+
+            .twitter{
+                color: white;
+               flex: 1;
+               display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+               
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .footer{
+        .innerfooter{
+             .intrested{
+                h1{
+                    font-size: 4rem;
+                }
+             } 
+             .desc{
+                .dark{
+                    font-size: 1.5rem;
+                }
+             }
+        }
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:900px) {
+    .footer{
+        .innerfooter{
+             .intrested{
+                h1{
+                    font-size: 5rem;
+                }
+             } 
+             .desc{
+                .dark{
+                    font-size: 1.8rem;
+                }
+             }
+        }
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .footer{
+        .innerfooter{
+             .intrested{
+                h1{
+                    font-size: 6rem;
+                }
+             } 
+             .desc{
+                .dark{
+                    font-size: 2rem;
+                }
+             }
+        }
+    }
+}

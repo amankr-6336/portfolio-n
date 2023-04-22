@@ -1,0 +1,118 @@
+.detail{
+    width: 100%;
+    height: 500px;
+
+    .innerdetail{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .para{
+            width: 50%;
+            height: 100%;
+            padding: 50px 0px;
+            p{
+                line-height: 2.25rem;
+              font-size: 1.5rem;
+              color: rgb(200, 196, 196);
+            }
+        }
+        .imagee{
+            width: 40%;
+            height: 100%;
+            img{
+               width: 100%;
+               height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .detail{
+        height: fit-content;
+        .innerdetail{
+            flex-direction: column;
+            .para{
+               width: 100%;
+               height: fit-content;
+                padding: 10px 0px;
+               p{
+                font-size: 0.8rem;
+                line-height: 1.3rem;
+               }
+            }
+
+            .imagee{
+                height: fit-content;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .detail{
+        height: fit-content;
+        .innerdetail{
+            flex-direction: column;
+            .para{
+               width: 100%;
+               height: fit-content;
+                padding: 10px 0px;
+               p{
+                font-size: 1rem;
+                line-height: 1.3rem;
+               }
+            }
+
+            .imagee{
+                height: fit-content;
+            }
+        }
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .detail{
+        height: fit-content;
+        .innerdetail{
+          
+            .para{
+               width: 100%;
+               height: fit-content;
+                padding: 10px 0px;
+               p{
+                font-size: 1rem;
+                line-height: 1.5rem;
+               }
+            }
+
+            .imagee{
+                height: fit-content;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+    .detail{
+        height: fit-content;
+        .innerdetail{
+          
+            .para{
+               width: 100%;
+               height: fit-content;
+                padding: 10px 0px;
+               p{
+                font-size: 1.3rem;
+                line-height: 1.8rem;
+               }
+            }
+
+            .imagee{
+                height: fit-content;
+            }
+        }
+    }
+}
