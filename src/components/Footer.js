@@ -6,6 +6,7 @@ import './Footer.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 function Footer() {
 
   useEffect(()=>{
@@ -20,20 +21,20 @@ function Footer() {
         </div>
         <div data-aos="fade-up" className="desc">
           <p className="dark">
-            I'm not really active on <p className="white"><a href="www.google.com">Linkedin</a></p> but you can stay in touch with me
+            I'm really active on <p className="white"><a href="www.google.com">Linkedin</a></p> and you can also stay in touch with me
             on <p className="white"><a href="www.google.com">Twitter</a></p> . Sometimes I blog about some of my work on <p className="white"><a href="www.google.com">Dev.to</a></p> and
             some experiments on <p className="white"><a href="www.google.com">Instagram</a></p>.
           </p>
         </div>
         <div data-aos="fade-up" className="resume">
-            <button><a href="www.google.com"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
+            <button><a href={require("./amanCV.pdf")} download="AmankrCV"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
         </div>
 
         <div className="connect">
             <div className="insta">
-                <BsInstagram/>
+                <a rel="noreferrer" href="https://www.instagram.com/amankr.6336/" target="_blank"><BsInstagram/></a>
             </div>
-            <div className="github"><BsGithub/></div>
+            <div className="github"> <a rel="noreferrer" href="https://github.com/amankr-6336" target="_blank"><BsGithub/></a></div>
             <div className="twitter">
               <FiTwitter/>
             </div>

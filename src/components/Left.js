@@ -19,10 +19,10 @@ function Left() {
             </div>
             <div className="rightinfo">
                 <h2 data-aos="fade-up" data-aos-delay="600" className='title'>Trendy Threads</h2>
-                <p data-aos="fade-up" data-aos-delay="900">A platform for posting courses which are designed as per the Industry demand with full Career Assistance.</p>
+                <p data-aos="fade-up" data-aos-delay="900">An online platform for Men fashion which comes with new designs and fast fashion clothes for mens.</p>
                 <div data-aos="fade-up" data-aos-delay="1000" className="links">
-                <div  className="githublink"><AiFillGithub/></div>
-                <div  className="demo"><BsArrowRight/></div>
+                <div  className="githublink"><a rel="noreferrer" href="https://github.com/amankr-6336/e-commerce" target="_blank"><AiFillGithub/></a></div>
+                <div  className="demo"><a rel="noreferrer" href="https://trendy-threads-e4zye.ondigitalocean.app/" target="_blank"><BsArrowRight/></a></div>
                 </div>
             </div>
         </div>

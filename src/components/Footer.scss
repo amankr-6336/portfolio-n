@@ -74,6 +74,9 @@
                 font-size: 2rem;
                 color: white;
                 border-right: 1px solid rgb(200, 196, 196);
+                a{
+                    color: white;
+                }
             }
 
             .github{
@@ -84,6 +87,9 @@
                 font-size: 2rem;
                 color: white;
                 border-right: 1px solid rgb(200, 196, 196);
+                a{
+                    color: white;
+                }
             }
 
             .twitter{
@@ -93,7 +99,9 @@
                 justify-content: center;
                 align-items: center;
                 font-size: 2rem;
-               
+                a{
+                    color: white;
+                }
             }
         }
     }
