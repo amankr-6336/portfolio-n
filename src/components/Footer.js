@@ -27,7 +27,7 @@ function Footer() {
           </p>
         </div>
         <div data-aos="fade-up" className="resume">
-            <button><a href={require("./amanCV.pdf")} download="AmankrCV"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
+            <button><a href={require("./1.pdf")} download="AmankrCV"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
         </div>
 
         <div className="connect">
