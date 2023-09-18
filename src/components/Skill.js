@@ -19,6 +19,9 @@ function Skill() {
 
      <div className="skill">
         <div className="innerskill">
+        <div data-aos="fade-up" className="lang">
+                <h1> Languagess, Frameworks & Tools</h1>
+            </div>
              <div className="logos">
                 <div data-aos="fade-right"   className="circle">
                     <div className="innercircle">
@@ -62,9 +65,9 @@ function Skill() {
                 </div>
 
              </div>
-            <div data-aos="fade-up" className="lang">
+            {/* <div data-aos="fade-up" className="lang">
                 <h1> Languagess, Frameworks & Tools</h1>
-            </div>
+            </div> */}
         </div>
      </div>
   )

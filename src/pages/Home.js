@@ -6,15 +6,18 @@ import git from '../assets/github-mark.png'
 import gmail from '../assets/Gmail_Logo_128px.png'
 import lin from '../assets/linkedin.png'
 import ProjectHeading from '../components/ProjectHeading'
-import Left from '../components/Left'
+// import Left from '../components/Left'
 import Right from '../components/Right'
 import Footer from '../components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Skill from '../components/Skill'
+import ProjectData from '../components/ProjectData'
 
 
 function Home() {
+
+  // console.log(ProjectData);
     
   useEffect(()=>{
     AOS.init();
@@ -35,8 +38,13 @@ function Home() {
             <ProjectHeading/>
         </div>
         <div className="projects">
-          <Left/>
-          <Right/>
+           {
+             ProjectData.map( data => <Right key={data._id} data={data}/>)
+           }
+          
+          {/* <Left/>
+          <Right/> */}
+
         </div>
 
         <div className="tools">
