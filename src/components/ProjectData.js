@@ -1,5 +1,5 @@
 import p1 from '../assets/Blank 3 Grids Collage.jpg';
-import p2 from '../assets/Blank 3 Grids Collage (1).jpg'
+import p2 from '../assets/tt.jpg'
 import p3 from '../assets/Blank 3 Grids Collage (2).jpg'
 
 const data=[
@@ -15,7 +15,7 @@ const data=[
         title:"Trendy Threads",
         desc:"An online platform for Men fashion which comes with new designs and fast fashion clothes for mens. " ,
         link1:"https://github.com/amankr-6336/e-commerce" ,
-        link2:"https://trendy-threads-e4zye.ondigitalocean.app/" 
+        link2:"https://trendy-threads-ml8mr.ondigitalocean.app/" 
      },
 
      {  
