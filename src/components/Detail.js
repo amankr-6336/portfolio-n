@@ -1,6 +1,6 @@
 import React from 'react'
 
-import i from '../assets/detail.png'
+// import i from '../assets/detail.png'
 import './Detail.scss'
 import dev from './dev.json';
 import Lottie from 'lottie-react';
