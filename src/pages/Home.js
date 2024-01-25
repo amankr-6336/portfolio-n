@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 import Skill from '../components/Skill'
 import ProjectData from '../components/ProjectData'
 import Left from '../components/Left'
+import CodingProfile from '../components/coding profile/CodingProfile'
 
 
 function Home() {
@@ -28,7 +29,7 @@ function Home() {
     <div className="home">
       <span id='github' data-aos="zoom-in" ><span data-aos="zoom-in" data-aos-delay="200" className='innerspan'><a href="https://github.com/amankr-6336"><img data-aos="zoom-in" data-aos-delay="600" src={git} alt="" /></a></span></span>
       <span id='gmail' data-aos="zoom-in"><span data-aos="zoom-in" data-aos-delay="200" className='innerspan'><a href="www.google.com"><img data-aos="zoom-in" data-aos-delay="600" src={gmail} alt="" /></a></span></span>
-      <span data-aos="zoom-in" id='linkedin'><span data-aos="zoom-in" data-aos-delay="200" className='innerspan'><a href="https://www.linkedin.com/in/aman-kumar-269275170/"><img data-aos="zoom-in" data-aos-delay="600" src={lin} alt="" /></a></span></span>
+      <span data-aos="zoom-in" id='linkedin'><span data-aos="zoom-in" data-aos-delay="200" className='innerspan'><a href="www.linkedin.com/in/amankr6336"><img data-aos="zoom-in" data-aos-delay="600" src={lin} alt="" /></a></span></span>
       <div className="about">
         <AboutMe />
       </div>
@@ -53,6 +54,10 @@ function Home() {
 
       <div className="tools">
         <Skill />
+      </div>
+
+      <div className="coding">
+         <CodingProfile/>
       </div>
 
       <div className="footerh">

@@ -11,14 +11,14 @@ const data=[
       title:"Socialight",
       desc:"Socialight is the ultimate social media platform designed to brighten up your online experience.",
       link1:"https://github.com/amankr-6336/social-media-frontend",
-      link2:"https://social-light-bmczu.ondigitalocean.app/"
+      link2:"https://social-light-x66bj.ondigitalocean.app/"
     },
     {   id:2,
       img:p2,
       title:"Trendy Threads",
       desc:"An online platform for Men fashion which comes with new designs and fast fashion clothes for mens. " ,
       link1:"https://github.com/amankr-6336/e-commerce" ,
-      link2:"https://trendy-threads-ml8mr.ondigitalocean.app/" 
+      link2:"https://trendy-threads-pbzyi.ondigitalocean.app/" 
    },
 
     {  id:3,

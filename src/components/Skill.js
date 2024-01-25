@@ -28,7 +28,7 @@ function Skill() {
                         <img src={r} alt="" />
                     </div>
                 </div>
-                <div data-aos="fade-right" data-aos-delay="100" className="circle">
+                <div  className="circle">
                     <div className="innercircle">
                         <img src={n} alt="" />
                     </div>

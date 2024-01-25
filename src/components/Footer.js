@@ -21,13 +21,13 @@ function Footer() {
         </div>
         <div data-aos="fade-up" className="desc">
           <p className="dark">
-            I'm really active on <p className="white"><a href="www.google.com">Linkedin</a></p> and you can also stay in touch with me
+            I'm really active on <p className="white"><a href="www.linkedin.com/in/amankr6336">Linkedin</a></p> and you can also stay in touch with me
             on <p className="white"><a href="www.google.com">Twitter</a></p> . Sometimes I blog about some of my work on <p className="white"><a href="www.google.com">Dev.to</a></p> and
             some experiments on <p className="white"><a href="www.google.com">Instagram</a></p>.
           </p>
         </div>
         <div data-aos="fade-up" className="resume">
-            <button><a href={require("./1.pdf")} download="AmankrCV"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
+            <button><a href={require("./Aman_kumar_cv_.pdf")} download="AmankrCV"><AiOutlineFilePdf/><p className="re">Download Resume</p></a></button>
         </div>
 
         <div className="connect">
